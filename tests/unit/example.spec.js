@@ -10,3 +10,7 @@ describe("HelloWorld.vue", () => {
     expect(wrapper.text()).toMatch(msg);
   });
 });
+
+it("two plus is four", () => {
+  expect(2 + 2).toBe(4);
+});
