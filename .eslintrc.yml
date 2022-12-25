@@ -1,9 +1,11 @@
 root: true
 plugins:
+  - vue
   - jest
 extends: 
   - eslint:recommended
   - plugin:jest/recommended
+  - plugin:prettier/recommended
   - prettier
 
 
